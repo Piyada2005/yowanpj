@@ -1,0 +1,68 @@
+body{
+    background-image: url(../img/พื้นหลัง2.png);
+    min-height: 100vh;
+    background-size: 100% auto;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/*หน้าแรก*/
+.img1{
+    width: 100%;
+}
+section{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.box1{
+    width: 100%;
+    height: auto;
+    padding: 3% 3%;
+    margin: 4% 0;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid #E4E4E4;
+    box-shadow: 1px 1px 5px #ccc;
+}
+.img1_1{
+    width: 22%;
+    margin: 2% 1.5%;
+    float: left;
+    border-radius: 5px;
+    border: 2px solid #E4E4E4;
+    box-shadow: 1px 1px 5px #ccc;
+}
+h2{
+    text-align: center;
+    margin-bottom: 2%;
+}
+.p0{
+    clear: both;
+    margin: 1% 2.5%;
+}
+.a1{
+    color: #007FFF;
+}
+
+@media screen and (max-width: 768px){
+body{
+  width: 100%;
+}
+section{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.img1{
+    width: 100%;
+}
+.img1_1{
+    width: 45%;
+    margin: 2% 2.5%;
+    float: left;
+    border-radius: 5px;
+    border: 2px solid #E4E4E4;
+    box-shadow: 1px 1px 5px #ccc;
+}
+}
