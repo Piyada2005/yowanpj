@@ -11,7 +11,7 @@ body.page_7{
     background-image: url(../img/ส่วนหัว/1_0.jpg) , url(../img/พื้นหลัง2.png);
 }
 body.page_8{
-    background-image: url(../img/ส่วนหัว/1_0.jpg) , url(../img/พื้นหลัง2.png);
+    background-image: url(../img/ที่พักราช/712dc8e3fd2198e8d87cd9ace3fe0fcd354acfe4-2.jpg) , url(../img/พื้นหลัง2.png);
 }
 body.page_9{
     background-image: url(../img/ส่วนหัว/3_0.jpg) , url(../img/พื้นหลัง2.png);
@@ -24,9 +24,9 @@ body.page_11{
 }
 
 section{
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .logo a{
     color: #0D5302;
