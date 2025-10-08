@@ -135,13 +135,12 @@ img{
 .img5_1{
     width: 30%;
     margin: 2% 1.5%;
-    margin-top: 0;
+    
     float: right;
 }
 .img5_2{
     width: 30%;
-    margin: 1% 1.5%;
-    margin-top: 0;
+    margin: 2% 1.5%;
     float: right;
 }
 .img5_3{
@@ -177,6 +176,7 @@ img{
 .img7_1{
     width: 47%;
     margin: 1% 1.5%;
+    margin-bottom: 3%;
     float: left;
 }
 .img7_2{
@@ -188,7 +188,6 @@ img{
 .img7_3{
     width: 47%;
     margin: 2% 1.5%;
-    margin-bottom: 3%;
     float: left;
 }
 
@@ -205,7 +204,7 @@ section{
     margin-right: 5%;
 }
 .h1{
-    font-size: 30px;
+    font-size: 25px;
 }
 .p1{
     text-indent: 20px;
