@@ -28,6 +28,13 @@ section{
     font-weight: bold;
 }
 h3{
+    color: white;
+    background-color: #259B24;
+    padding: 0.5% 3%;
+    text-align: center;
+    border-radius: 15px;
+    text-shadow: 1px 1px 2px #939393;
+    box-shadow: 1px 1px 5px #ccc;
     margin: 0 2.5%;
     margin-bottom: 1%;
 }
@@ -39,9 +46,11 @@ h3{
 .p1{
     clear: both;
     margin: 1% 2%;
+    margin-top: 2%;
 }
 .p2{
     margin: 1% 2%;
+    
 }
 .p3{
     margin: 2% 2%;
