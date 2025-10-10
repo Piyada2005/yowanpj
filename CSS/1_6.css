@@ -50,7 +50,7 @@ h3{
 }
 .p2{
     margin: 1% 2%;
-    
+    margin-top: 2%;
 }
 .p3{
     margin: 2% 2%;
@@ -82,6 +82,9 @@ h3{
     border: 2px solid #E4E4E4;
     box-shadow: 1px 1px 5px #ccc;
 }
+.box2 ul{
+    list-style-type: none;
+}
 img{
     border-radius: 5px;
     border: 2px solid #E4E4E4;
@@ -92,19 +95,22 @@ img{
 
 /*หน้า 1*/
 
-.img2_1 , .img2_2{
-    width: 41%;
+.img2_1{
+    width: 41.5%;
     margin: 2% 1.5%;
+    margin-left: 4.5%;
     float: left;
 }
 .img2_2{
-    width: 46.5%;
+    width: 47%;
+    margin: 2% 1.5%;
+    float: left;
 }
 .img2_3{
-    width: 46%;
+    width: 47%;
     margin: 2% 1.5%;
     margin-top: 0;
-    float: right;
+    float: left;
 }
 
 
@@ -170,13 +176,13 @@ img{
 .img6_1 , .img6_2{
     width: 28.8%;
     margin: 2% 1.5%;
-    margin-top: 0;
+    margin-top: 1%;
     float: left;
 }
 .img6_3{
     width: 35%;
     margin: 2% 1.5%;
-    margin-top: 0;
+    margin-top: 1%;
     margin-bottom: 3%;
     float: right;
 }
@@ -199,6 +205,8 @@ img{
     margin: 2% 1.5%;
     float: left;
 }
+
+
 /* หน้า 12 */
 .img8_1{
     width: 100%;
@@ -324,9 +332,8 @@ section{
     margin-top: 3%;
     padding: 3% 2% 3% 7%;
 }
-.img2_2{
-    width: 45.5%;
-    float: left;
+.img2_2 , .img2_3{
+    width: 46%;
 }
 /*หน้า 4*/
 .img5_1{

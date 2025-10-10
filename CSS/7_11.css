@@ -102,6 +102,9 @@ h3{
     border: 2px solid #E4E4E4;
     box-shadow: 1px 1px 5px #ccc;
 }
+.box2 ul{
+    list-style-type: none;
+}
 .box3 , .box4{
     width: 100%;
     height: auto;
@@ -236,20 +239,24 @@ img{
     float: left;
 }
 
-.img11_1 , .img11_2{
+.img11_1{
     width: 41%;
     margin: 2% 1.5%;
     float: right;
+    margin-right: 6%;
+    margin-bottom: 3%;
 }
 .img11_2{
     width: 45.5%;
-    float: left;
+    margin: 2% 1.5%;
+    float: right;
 }
 .img11_3{
     width: 45.5%;
     margin: 2% 1.5%;
     margin-top: 0;
     float: right;
+    
 }
 
 
