@@ -1,105 +1,290 @@
 <!DOCTYPE html>
 <html lang="th">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/menu.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/menu.css" />
+    <link rel="stylesheet" href="./CSS/1_6.css" />
 
     <title></title>
-    
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="logo">
-            <a href="./index.html"><img src="./img/ชวนเที่ยวทีตก.svg" alt="ชวนเที่ยว" title="logo ชวนเที่ยว"></a>
-        </div>
-        
-        <div class="hamburgermenu" onclick="toggleMenu()"><h1>☰</h1></div>
+      <div class="logo">
+        <a href="./index.html"
+          ><img
+            src="./img/ชวนเที่ยวทีตก.svg"
+            alt="ชวนเที่ยว"
+            title="logo ชวนเที่ยว"
+        /></a>
+      </div>
 
-        <div class="menu" id="menu">
-            <ul>
-                <li><a href="./index.html">หน้าแรก</a></li>
-                <li class="main">ที่เที่ยว
-                    <ul class="small">
-                        <li class="main2">กาญจนบุรี
-                            <ul class="small2">
-                                <li><a href="./page_1.html">ธรรมชาติ</a></li>
-                                <li><a href="./page_2.html">วัฒนธรรม</a></li>
-                            </ul>
-                        </li>
+      <div class="hamburgermenu" onclick="toggleMenu()"><h1>☰</h1></div>
 
-                        <li class="main2">ราชบุรี
-                            <ul class="small2">
-                                <li><a href="./page_3.html">ธรรมชาติ</a></li>
-                                <li><a href="./page_4.html">วัฒนธรรม</a></li>
-                            </ul>
-                        </li>
-                        <li class="main2">เพชรบุรี
-                            <ul class="small2">
-                                <li><a href="./page_5.html">ธรรมชาติ</a></li>
-                                <li><a href="./page_6.html">วัฒนธรรม</a></li>
-                            </ul>
-                        </li>
-                        <li class="main2">ประจวบฯ
-                            <ul class="small2">
-                                <li><a href="./page_12.html">ธรรมชาติ</a></li>
-                                <li><a href="./page_13.html">วัฒนธรรม</a></li>
-                            </ul>
-                        </li>
-                        <li class="main2">ตาก
-                            <ul class="small2">
-                                <li><a href="./page_14.html">ธรรมชาติ</a></li>
-                                <li><a href="./page_15.html">วัฒนธรรม</a></li>
-                            </ul>
-                        </li>
-                     
-                    </ul>
-                </li>
-                <li class="main">ร้านอาหาร
-                    <ul class="small">
-                        <li><a href="./page_16.html">กาญจนบุรี</a></li>
-                        <li><a href="./page_17.html">ราชบุรี</a></li>
-                        <li><a href="./page_18.html">เพชรบุรี</a></li>
-                        <li><a href="./page_19.html">ประจวบฯ</a></li>
-                        <li><a href="./page_20.html">ตาก</a></li>
-                    </ul>
-                </li>
-                <li class="main">ที่พัก
-                    <ul class="small">
-                        <li><a href="./page_7.html">กาญจนบุรี</a></li>
-                        <li><a href="./page_8.html">ราชบุรี</a></li>
-                        <li><a href="./page_9.html">เพชรบุรี</a></li>
-                        <li><a href="./page_10.html">ประจวบฯ</a></li>
-                        <li><a href="./page_11.html">ตาก</a></li>
-                    </ul>
-                </li>
-                <li class="main">เกี่ยวกับ
-                    <ul class="small">
-                        <li><a href="./page_21.html">เกี่ยวกับเรา</a></li>
-                        <li><a href="./page_22.html">ติดต่อเรา</a></li>
-                    </ul>
-                </li>
+      <div class="menu" id="menu">
+        <ul>
+          <li><a href="./index.html">หน้าแรก</a></li>
+          <li class="main">
+            ที่เที่ยว
+            <ul class="small">
+              <li class="main2">
+                กาญจนบุรี
+                <ul class="small2">
+                  <li><a href="./page_1.html">ธรรมชาติ</a></li>
+                  <li><a href="./page_2.html">วัฒนธรรม</a></li>
+                </ul>
+              </li>
+
+              <li class="main2">
+                ราชบุรี
+                <ul class="small2">
+                  <li><a href="./page_3.html">ธรรมชาติ</a></li>
+                  <li><a href="./page_4.html">วัฒนธรรม</a></li>
+                </ul>
+              </li>
+              <li class="main2">
+                เพชรบุรี
+                <ul class="small2">
+                  <li><a href="./page_5.html">ธรรมชาติ</a></li>
+                  <li><a href="./page_6.html">วัฒนธรรม</a></li>
+                </ul>
+              </li>
+              <li class="main2">
+                ประจวบฯ
+                <ul class="small2">
+                  <li><a href="./page_12.html">ธรรมชาติ</a></li>
+                  <li><a href="./page_13.html">วัฒนธรรม</a></li>
+                </ul>
+              </li>
+              <li class="main2">
+                ตาก
+                <ul class="small2">
+                  <li><a href="./page_14.html">ธรรมชาติ</a></li>
+                  <li><a href="./page_15.html">วัฒนธรรม</a></li>
+                </ul>
+              </li>
             </ul>
-        </div>
+          </li>
+          <li class="main">
+            ร้านอาหาร
+            <ul class="small">
+              <li><a href="./page_16.html">กาญจนบุรี</a></li>
+              <li><a href="./page_17.html">ราชบุรี</a></li>
+              <li><a href="./page_18.html">เพชรบุรี</a></li>
+              <li><a href="./page_19.html">ประจวบฯ</a></li>
+              <li><a href="./page_20.html">ตาก</a></li>
+            </ul>
+          </li>
+          <li class="main">
+            ที่พัก
+            <ul class="small">
+              <li><a href="./page_7.html">กาญจนบุรี</a></li>
+              <li><a href="./page_8.html">ราชบุรี</a></li>
+              <li><a href="./page_9.html">เพชรบุรี</a></li>
+              <li><a href="./page_10.html">ประจวบฯ</a></li>
+              <li><a href="./page_11.html">ตาก</a></li>
+            </ul>
+          </li>
+          <li class="main">
+            เกี่ยวกับ
+            <ul class="small">
+              <li><a href="./page_21.html">เกี่ยวกับเรา</a></li>
+              <li><a href="./page_22.html">ติดต่อเรา</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </header>
-    
+
     <section>
-        
+      <h2 class="h1">
+        สถานที่ท่องเที่ยวธรรมชาติ<br />
+        จังหวัดตาก
+      </h2>
+      <div class="box1">
+        <div class="align_center">
+          <img
+            class="img8_2 image"
+            src="./img/ธรรมชาคิตาก/น้ำตกทีลอซู/1.jpg"
+            alt="น้ำตกทีลอซู"
+          />
+        </div>
+        <h3 class="mt2">1.น้ำตกทีลอซู (Thi Lo Su Waterfall)</h3>
+        <div>
+          <p class="indent">
+            น้ำตกทีลอซูถือเป็น น้ำตกที่ใหญ่และงดงามที่สุดในประเทศไทย
+            ตั้งอยู่ในเขตอุทยานแห่งชาติแม่กลอง มีความสูงกว่า 200 เมตร
+            และกว้างเกือบ 500 เมตร น้ำไหลแรงตลอดปี
+            โดยเฉพาะช่วงฤดูฝนจะเห็นสายธารน้ำตกเป็นม่านน้ำขนาดใหญ่
+            น้ำตกทีลอซูรายล้อมด้วยป่าดิบชื้นที่สมบูรณ์
+            ทำให้มีความอุดมสมบูรณ์ของสัตว์ป่าและพันธุ์ไม้หลายชนิด เช่น นกแก้ว
+            เหยี่ยว และผีเสื้อ นักท่องเที่ยวต้องเดินเท้าและใช้รถ 4WD
+            เข้าถึงจุดชมวิว
+            แต่เมื่อไปถึงจะได้สัมผัสวิวอันงดงามของน้ำตกและธรรมชาติป่าเหนือระดับน้ำทะเลอย่างเต็มตา
+          </p>
+        </div>
+        <div class="box2">
+          <ui>
+            <li>ที่ตั้ง: ตำบลอุ้มผาง อำเภออุ้มผาง จังหวัดตาก</li>
+            <li>
+              เวลาเปิด–ปิด: 06.00 – 18.00 น. (ควรตรวจสอบช่วงฤดูฝนก่อนเดินทาง)
+            </li>
+            <li>แผนที่: Google Maps - น้ำตกทีลอซู</li></ui
+          >
+        </div>
+        <div class="align_center img_main">
+          <img
+            class="img_box grow"
+            src="img/ธรรมชาคิตาก/น้ำตกทีลอซู/2.jpg"
+            alt="น้ำตกทีลอซู"
+            class="grow"
+          />
+          <img
+            class="img_box grow"
+            src="img/ธรรมชาคิตาก/น้ำตกทีลอซู/5.jpg"
+            alt="น้ำตกทีลอซู"
+            class="grow"
+          />
+        </div>
+      </div>
 
+      <div class="box1">
+        <div class="align_center">
+          <img
+            class="img8_2 image"
+            src="./img/ธรรมชาคิตาก/น้ำตกปิตุ๊โกร/1.jpg"
+            alt="น้ำตกปิตุ๊โกร"
+          />
+        </div>
+        <h3 class="mt2">
+          2. น้ำตกปิตุ๊โกร (Pitu Kroy Waterfall / น้ำตกรูปหัวใจ)
+        </h3>
+        <div>
+          <p class="indent">
+            น้ำตกปิตุ๊โกรเป็น น้ำตกที่มีเอกลักษณ์เป็นรูปหัวใจ
+            ตั้งอยู่ในพื้นที่อุทยานแห่งชาติแม่เมย มีความสูงหลายชั้น
+            น้ำใสไหลเย็นและรายล้อมด้วยป่าดิบเขาที่ร่มรื่น
+            ช่วงฤดูฝนเป็นเวลาที่น้ำตกสวยที่สุด
+            น้ำตกแห่งนี้เหมาะสำหรับการเดินป่าศึกษาธรรมชาติและถ่ายภาพ
+            จุดเด่นคือมุมถ่ายภาพรูปหัวใจของน้ำตกที่นักท่องเที่ยวหลายคนไม่ควรพลาด
+          </p>
+        </div>
+        <div class="box2">
+          <ui>
+            <li>ที่ตั้ง: ตำบลแม่ต้าน อำเภอท่าสองยาง จังหวัดตาก</li>
+            <li>เวลาเปิด–ปิด: 06.00 – 18.00 น.</li>
+            <li>แผนที่: Google Maps - น้ำตกปิตุ๊โกร</li></ui
+          >
+        </div>
+        <div class="align_center img_main">
+          <img
+            class="img_box grow"
+            src="img/ธรรมชาคิตาก/น้ำตกปิตุ๊โกร/2.jpg"
+            alt="น้ำตกปิตุ๊โกร"
+            class="grow"
+          />
+          <img
+            class="img_box grow"
+            src="img/ธรรมชาคิตาก/น้ำตกปิตุ๊โกร/3.jpg"
+            alt="น้ำตกปิตุ๊โกร"
+            class="grow"
+          />
+        </div>
+      </div>
 
+      <div class="box1">
+        <div class="align_center">
+          <img
+            class="img8_2 image"
+            src="./img/ธรรมชาคิตาก/อุทยานแห่งชาติแม่เมย/4.jpg"
+            alt="อุทยานแห่งชาติแม่เมย"
+          />
+        </div>
+        <h3 class="mt2">3.อุทยานแห่งชาติแม่เมย (Mae Moei National Park)</h3>
+        <div>
+          <p class="indent">
+            อุทยานแห่งชาติแม่เมย ครอบคลุมพื้นที่ป่าดิบชื้นและภูเขาสูง
+            มีความอุดมสมบูรณ์ของสัตว์ป่า เช่น เก้ง กวาง นก และผีเสื้อ
+            นักท่องเที่ยวสามารถเดินป่าศึกษาธรรมชาติ ล่องเรือชมแม่น้ำแม่เมย
+            หรือพักแรมในจุดกางเต็นท์ของอุทยาน
+            สถานที่นี้เหมาะกับผู้รักธรรมชาติและการผจญภัย ทั้งการเดินป่า ชมวิว
+            และถ่ายภาพธรรมชาติในมุมสูง
+          </p>
+        </div>
+        <div class="box2">
+          <ui>
+            <li>ที่ตั้ง: ตำบลแม่ต้าน อำเภอท่าสองยาง จังหวัดตาก</li>
+            <li>เวลาเปิด–ปิด: 06.00 – 18.00 น.</li>
+            <li>แผนที่: Google Maps - อุทยานแห่งชาติแม่เมย</li></ui
+          >
+        </div>
+        <div class="align_center img_main">
+          <img
+            class="img_box grow"
+            src="img/ธรรมชาคิตาก/อุทยานแห่งชาติแม่เมย/2.jpg"
+            alt="อุทยานแห่งชาติแม่เมย"
+            class="grow"
+          />
+          <img
+            class="img_box grow"
+            src="img/ธรรมชาคิตาก/อุทยานแห่งชาติแม่เมย/3.jpg"
+            alt="อุทยานแห่งชาติแม่เมย"
+            class="grow"
+          />
+        </div>
+      </div>
 
-        
+      <div class="box1">
+        <div class="align_center">
+          <img
+            class="img8_2 image"
+            src="./img/ธรรมชาคิตาก/เขื่อนภูมิพล/2.jpg"
+            alt="เขื่อนภูมิพล"
+          />
+        </div>
+        <h3 class="mt2">4. เขื่อนภูมิพล (Bhumibol Dam)</h3>
+        <div>
+          <p class="indent">
+            เขื่อนภูมิพล หรือที่เรียกกันว่า “เขื่อนเจ้าพระยาแห่งภาคเหนือ”
+            เป็นเขื่อนคอนกรีตขนาดใหญ่ที่สร้างกั้นแม่น้ำปิง มีความยาวกว่า 1,400
+            เมตรและสูง 154 เมตร ถือเป็นแลนด์มาร์กสำคัญของจังหวัดตาก
+            นักท่องเที่ยวสามารถชมวิวทิวทัศน์ของเขื่อนและทะเลสาบขนาดใหญ่
+            เดินเล่นริมเขื่อน และล่องเรือชมธรรมชาติรอบ ๆ
+            อีกทั้งยังมีจุดชมวิวพระอาทิตย์ขึ้นและตกที่สวยงามมาก
+          </p>
+        </div>
+        <div class="box2">
+          <ui>
+            <li>ที่ตั้ง: ตำบลวังประจบ อำเภอสามเงา จังหวัดตาก</li>
+            <li>เวลาเปิด–ปิด: 06.00 – 18.00 น.</li>
+            <li>แผนที่: Google Maps - เขื่อนภูมิพล</li></ui
+          >
+        </div>
+        <div class="align_center img_main">
+          <img
+            class="img_box grow"
+            src="img/ธรรมชาคิตาก/เขื่อนภูมิพล/1.jpg"
+            alt="เขื่อนภูมิพล"
+            class="grow"
+          />
+          <img
+            class="img_box grow"
+            src="img/ธรรมชาคิตาก/เขื่อนภูมิพล/4.jpg"
+            alt="เขื่อนภูมิพล"
+            class="grow"
+          />
+        </div>
+      </div>
     </section>
 
     <footer>
-        <p>&copy;Phatsaphorn051-7 & Piyada052-5 Cs sec1</p>
+      <p>&copy;Phatsaphorn051-7 & Piyada052-5 Cs sec1</p>
     </footer>
 
     <script>
-        function toggleMenu(){
+      function toggleMenu() {
         document.querySelector(".menu").classList.toggle("show");
-    }
+      }
     </script>
-    
-</body>
+  </body>
 </html>

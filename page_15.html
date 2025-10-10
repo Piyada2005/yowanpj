@@ -1,105 +1,332 @@
 <!DOCTYPE html>
 <html lang="th">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/menu.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/menu.css" />
+    <link rel="stylesheet" href="./CSS/1_6.css" />
 
     <title></title>
-    
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="logo">
-            <a href="./index.html"><img src="./img/ชวนเที่ยวทีตก.svg" alt="ชวนเที่ยว" title="logo ชวนเที่ยว"></a>
-        </div>
-        
-        <div class="hamburgermenu" onclick="toggleMenu()"><h1>☰</h1></div>
+      <div class="logo">
+        <a href="./index.html"
+          ><img
+            src="./img/ชวนเที่ยวทีตก.svg"
+            alt="ชวนเที่ยว"
+            title="logo ชวนเที่ยว"
+        /></a>
+      </div>
 
-        <div class="menu" id="menu">
-            <ul>
-                <li><a href="./index.html">หน้าแรก</a></li>
-                <li class="main">ที่เที่ยว
-                    <ul class="small">
-                        <li class="main2">กาญจนบุรี
-                            <ul class="small2">
-                                <li><a href="./page_1.html">ธรรมชาติ</a></li>
-                                <li><a href="./page_2.html">วัฒนธรรม</a></li>
-                            </ul>
-                        </li>
+      <div class="hamburgermenu" onclick="toggleMenu()"><h1>☰</h1></div>
 
-                        <li class="main2">ราชบุรี
-                            <ul class="small2">
-                                <li><a href="./page_3.html">ธรรมชาติ</a></li>
-                                <li><a href="./page_4.html">วัฒนธรรม</a></li>
-                            </ul>
-                        </li>
-                        <li class="main2">เพชรบุรี
-                            <ul class="small2">
-                                <li><a href="./page_5.html">ธรรมชาติ</a></li>
-                                <li><a href="./page_6.html">วัฒนธรรม</a></li>
-                            </ul>
-                        </li>
-                        <li class="main2">ประจวบฯ
-                            <ul class="small2">
-                                <li><a href="./page_12.html">ธรรมชาติ</a></li>
-                                <li><a href="./page_13.html">วัฒนธรรม</a></li>
-                            </ul>
-                        </li>
-                        <li class="main2">ตาก
-                            <ul class="small2">
-                                <li><a href="./page_14.html">ธรรมชาติ</a></li>
-                                <li><a href="./page_15.html">วัฒนธรรม</a></li>
-                            </ul>
-                        </li>
-                     
-                    </ul>
-                </li>
-                <li class="main">ร้านอาหาร
-                    <ul class="small">
-                        <li><a href="./page_16.html">กาญจนบุรี</a></li>
-                        <li><a href="./page_17.html">ราชบุรี</a></li>
-                        <li><a href="./page_18.html">เพชรบุรี</a></li>
-                        <li><a href="./page_19.html">ประจวบฯ</a></li>
-                        <li><a href="./page_20.html">ตาก</a></li>
-                    </ul>
-                </li>
-                <li class="main">ที่พัก
-                    <ul class="small">
-                        <li><a href="./page_7.html">กาญจนบุรี</a></li>
-                        <li><a href="./page_8.html">ราชบุรี</a></li>
-                        <li><a href="./page_9.html">เพชรบุรี</a></li>
-                        <li><a href="./page_10.html">ประจวบฯ</a></li>
-                        <li><a href="./page_11.html">ตาก</a></li>
-                    </ul>
-                </li>
-                <li class="main">เกี่ยวกับ
-                    <ul class="small">
-                        <li><a href="./page_21.html">เกี่ยวกับเรา</a></li>
-                        <li><a href="./page_22.html">ติดต่อเรา</a></li>
-                    </ul>
-                </li>
+      <div class="menu" id="menu">
+        <ul>
+          <li><a href="./index.html">หน้าแรก</a></li>
+          <li class="main">
+            ที่เที่ยว
+            <ul class="small">
+              <li class="main2">
+                กาญจนบุรี
+                <ul class="small2">
+                  <li><a href="./page_1.html">ธรรมชาติ</a></li>
+                  <li><a href="./page_2.html">วัฒนธรรม</a></li>
+                </ul>
+              </li>
+
+              <li class="main2">
+                ราชบุรี
+                <ul class="small2">
+                  <li><a href="./page_3.html">ธรรมชาติ</a></li>
+                  <li><a href="./page_4.html">วัฒนธรรม</a></li>
+                </ul>
+              </li>
+              <li class="main2">
+                เพชรบุรี
+                <ul class="small2">
+                  <li><a href="./page_5.html">ธรรมชาติ</a></li>
+                  <li><a href="./page_6.html">วัฒนธรรม</a></li>
+                </ul>
+              </li>
+              <li class="main2">
+                ประจวบฯ
+                <ul class="small2">
+                  <li><a href="./page_12.html">ธรรมชาติ</a></li>
+                  <li><a href="./page_13.html">วัฒนธรรม</a></li>
+                </ul>
+              </li>
+              <li class="main2">
+                ตาก
+                <ul class="small2">
+                  <li><a href="./page_14.html">ธรรมชาติ</a></li>
+                  <li><a href="./page_15.html">วัฒนธรรม</a></li>
+                </ul>
+              </li>
             </ul>
-        </div>
+          </li>
+          <li class="main">
+            ร้านอาหาร
+            <ul class="small">
+              <li><a href="./page_16.html">กาญจนบุรี</a></li>
+              <li><a href="./page_17.html">ราชบุรี</a></li>
+              <li><a href="./page_18.html">เพชรบุรี</a></li>
+              <li><a href="./page_19.html">ประจวบฯ</a></li>
+              <li><a href="./page_20.html">ตาก</a></li>
+            </ul>
+          </li>
+          <li class="main">
+            ที่พัก
+            <ul class="small">
+              <li><a href="./page_7.html">กาญจนบุรี</a></li>
+              <li><a href="./page_8.html">ราชบุรี</a></li>
+              <li><a href="./page_9.html">เพชรบุรี</a></li>
+              <li><a href="./page_10.html">ประจวบฯ</a></li>
+              <li><a href="./page_11.html">ตาก</a></li>
+            </ul>
+          </li>
+          <li class="main">
+            เกี่ยวกับ
+            <ul class="small">
+              <li><a href="./page_21.html">เกี่ยวกับเรา</a></li>
+              <li><a href="./page_22.html">ติดต่อเรา</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </header>
-    
+
     <section>
-        
+      <h2 class="h1">
+        สถานที่ท่องเที่ยววัฒนธรรม&โบราณสถาน<br />
+        จังหวัดตาก
+      </h2>
+      <div class="box1">
+        <h3 class="mt2">
+          1.วัดพระบรมธาตุบ้านตาก (Wat Phra Borom That Ban Tak)
+        </h3>
+        <div class="flex gap h-fit">
+          <div class="w-fit h-fit">
+            <p class="indent line-height h-full mt">
+              วัดพระบรมธาตุบ้านตากเป็นวัดเก่าแก่และสำคัญของจังหวัดตาก
+              มีพระบรมธาตุเจดีย์สูงสง่าเป็นศูนย์รวมจิตใจของชาวบ้านตาก
+              เจดีย์สร้างขึ้นเพื่อบรรจุพระบรมสารีริกธาตุ
+              ภายในวัดยังมีโบสถ์และวิหารที่ตกแต่งด้วยลวดลายงดงาม
+              สะท้อนสถาปัตยกรรมไทยโบราณ
+              นักท่องเที่ยวสามารถเดินชมวัดและบูชาองค์พระธาตุเพื่อความเป็นสิริมงคล
+              วัดแห่งนี้ยังเหมาะสำหรับการถ่ายภาพและศึกษาเรื่องราวประวัติศาสตร์ท้องถิ่น
+            </p>
+          </div>
+          <div class="h-fit mt" style="width: 80%">
+            <img
+              class="img8_3 w-full"
+              src="./img/วัฒนธรรมตาก/วัดพระบรมธาตุตาก/4.jpg"
+              alt="วัดพระบรมธาตุตาก"
+            />
+          </div>
+        </div>
 
+        <div class="align_center img_main">
+          <img
+            class="img_box grow"
+            src="img/วัฒนธรรมตาก/วัดพระบรมธาตุตาก/1.jpg"
+            alt="วัดพระบรมธาตุตาก"
+            class="grow"
+          />
+          <img
+            class="img_box grow"
+            src="img/วัฒนธรรมตาก/วัดพระบรมธาตุตาก/2.jpg"
+            alt="วัดพระบรมธาตุตาก"
+            class="grow"
+          />
+          <img
+            class="img_box grow"
+            src="img/วัฒนธรรมตาก/วัดพระบรมธาตุตาก/3.jpg"
+            alt="วัดพระบรมธาตุตาก"
+            class="grow"
+          />
+        </div>
+        <div class="box2">
+          <ui>
+            <li>ที่ตั้ง: ตำบลบ้านตาก อำเภอบ้านตาก จังหวัดตาก</li>
+            <li>เวลาเปิด–ปิด: 06.00 – 18.00 น.</li>
+            <li>แผนที่: Google Maps - วัดพระบรมธาตุบ้านตาก</li></ui
+          >
+        </div>
+      </div>
 
+      <div class="box1">
+        <h3 class="mt2">2.ศาลสมเด็จพระเจ้าตากสินมหาราช (King Taksin Shrine)</h3>
+        <div class="flex gap h-fit">
+          <div class="w-fit h-fit">
+            <p class="indent line-height h-full mt">
+              ศาลสมเด็จพระเจ้าตากสินมหาราชเป็นอนุสาวรีย์ที่สร้างเพื่อเทิดพระเกียรติพระเจ้าตากสินมหาราช
+              ผู้ทรงกอบกู้เอกราชไทยและเป็นวีรบุรุษแห่งชาติ
+              นักท่องเที่ยวสามารถสักการะและเรียนรู้ประวัติศาสตร์ความกล้าหาญของพระองค์
+            </p>
+            <p class="indent line-height h-full mt">
+              บริเวณศาลมีสวนหย่อมร่มรื่น เหมาะแก่การพักผ่อนและถ่ายภาพ
+              นอกจากนี้ในวันสำคัญทางประวัติศาสตร์มักมีพิธีบูชาและกิจกรรมรำลึกถึงพระเจ้าตากสินมหาราช
+            </p>
+          </div>
+          <div class="h-fit mt" style="width: 80%">
+            <img
+              class="img8_3 w-full"
+              src="./img/วัฒนธรรมตาก/ศาลสมเด็จพระเจ้าตากสินมหาราช/3.jpg"
+              alt="ศาลสมเด็จพระเจ้าตากสินมหาราช"
+            />
+          </div>
+        </div>
 
-        
+        <div class="align_center img_main">
+          <img
+            class="img_box grow"
+            src="./img/วัฒนธรรมตาก/ศาลสมเด็จพระเจ้าตากสินมหาราช/2.jpg"
+            alt="ศาลสมเด็จพระเจ้าตากสินมหาราช"
+            class="grow"
+          />
+          <img
+            class="img_box grow"
+            src="./img/วัฒนธรรมตาก/ศาลสมเด็จพระเจ้าตากสินมหาราช/1.jpg"
+            alt="ศาลสมเด็จพระเจ้าตากสินมหาราช"
+            class="grow"
+          />
+          <img
+            class="img_box grow"
+            src="./img/วัฒนธรรมตาก/ศาลสมเด็จพระเจ้าตากสินมหาราช/4.jpg"
+            alt="ศาลสมเด็จพระเจ้าตากสินมหาราช"
+            class="grow"
+          />
+        </div>
+        <div class="box2">
+          <ui>
+            <li>ที่ตั้ง: ตำบลตลาดใต้ อำเภอเมืองตาก จังหวัดตาก</li>
+            <li>เวลาเปิด–ปิด: 07.00 – 17.00 น.</li>
+            <li>แผนที่: Google Maps - ศาลสมเด็จพระเจ้าตากสินมหาราช</li></ui
+          >
+        </div>
+      </div>
+
+      <div class="box1">
+        <h3 class="mt2">3.วัดไทยวัฒนาราม (Wat Thai Wattanaram)</h3>
+        <div class="flex gap h-fit">
+          <div class="w-fit h-fit">
+            <p class="indent line-height h-full mt">
+              วัดไทยวัฒนารามเป็นวัดสำคัญที่มีสถาปัตยกรรมผสมผสานระหว่างไทยและจีน
+              ภายในวัดมีพระพุทธรูปใหญ่และอาคารวิหารที่ประดับด้วยลวดลายสีทองงดงาม
+              เป็นสถานที่สักการะและปฏิบัติธรรมของชาวบ้านและนักท่องเที่ยว
+            </p>
+            <p class="indent line-height h-full mt">
+              นอกจากความสวยงามด้านสถาปัตยกรรมแล้ว
+              วัดแห่งนี้ยังมีกิจกรรมทางศาสนาที่น่าสนใจ เช่น
+              การทำบุญตักบาตรและเทศกาลประจำปี
+            </p>
+          </div>
+          <div class="h-fit mt" style="width: 80%">
+            <img
+              class="img8_3 w-full"
+              src="./img/วัฒนธรรมตาก/วัดไทยวัฒนาราม/1.jpg"
+              alt="วัดไทยวัฒนาราม"
+            />
+          </div>
+        </div>
+
+        <div class="align_center img_main">
+          <img
+            class="img_box grow"
+            src="img/วัฒนธรรมตาก/วัดไทยวัฒนาราม/2.jpg"
+            alt="วัดไทยวัฒนาราม"
+            class="grow"
+          />
+          <img
+            class="img_box grow"
+            src="img/วัฒนธรรมตาก/วัดไทยวัฒนาราม/3.jpg"
+            alt="วัดไทยวัฒนาราม"
+            class="grow"
+          />
+          <img
+            class="img_box grow"
+            src="img/วัฒนธรรมตาก/วัดไทยวัฒนาราม/4.jpg"
+            alt="วัดไทยวัฒนาราม"
+            class="grow"
+          />
+        </div>
+        <div class="box2">
+          <ui>
+            <li>ที่ตั้ง: ตำบลแม่ท้อ อำเภอเมืองตาก จังหวัดตาก</li>
+            <li>เวลาเปิด–ปิด: 06.00 – 18.00 น.</li>
+            <li>แผนที่: Google Maps - วัดไทยวัฒนาราม</li>
+          </ui>
+        </div>
+      </div>
+
+      <div class="box1">
+        <h3 class="mt2">
+          4.สะพานสมโภชกรุงรัตนโกสินทร์ 200 ปี(Rattanakosin 200th Anniversary
+          Bridge)
+        </h3>
+        <div class="flex gap h-fit">
+          <div class="w-fit h-fit">
+            <p class="indent line-height h-full mt2">
+              สะพานสมโภชกรุงรัตนโกสินทร์ 200 ปี
+              เป็นสะพานประวัติศาสตร์ที่สร้างขึ้นเพื่อเฉลิมฉลองกรุงรัตนโกสินทร์ครบ
+              200 ปี ตัวสะพานเป็นแลนด์มาร์กสำคัญของเมืองตาก
+              และมักใช้เป็นจุดชมวิวแม่น้ำปิงและถ่ายภาพพระอาทิตย์ตก
+              นักท่องเที่ยวสามารถเดินเล่นบนสะพานหรือชมวิวรอบ ๆ ได้อย่างสวยงาม
+              โดยเฉพาะในช่วงเย็นที่แสงสีทองสะท้อนน้ำทำให้เกิดบรรยากาศโรแมนติก
+              รวมถึงผู้คนมักพาครอบครัว คู่รัก หรือกลุ่มเพื่อนมานั่งพักชมวิว
+              รับลมเย็น ๆ บนสะพานเหนือน้ำ รอบบริเวณมีสวนเฉลิมพระเกียรติฯ
+              เป็นพื้นที่สาธารณะ มีสนามกีฬาและพื้นที่เดินเล่นริมแม่น้ำ
+              ทำให้ผู้มาเยือนได้ผ่อนคลายและมีกิจกรรมนอกเหนือจากการชมวิวสะพานด้วย
+            </p>
+          </div>
+          <div class="h-fit mt2" style="width: 80%">
+            <img
+              class="img8_3 w-full"
+              src="./img/วัฒนธรรมตาก/สะพานสมโภชกรุงรัตนโกสินทร์/1.jpg"
+              alt="สะพานสมโภชกรุงรัตนโกสินทร์"
+            />
+          </div>
+        </div>
+
+        <div class="align_center img_main">
+          <img
+            class="img_box grow"
+            src="img/วัฒนธรรมตาก/สะพานสมโภชกรุงรัตนโกสินทร์/2.jpg"
+            alt="สะพานสมโภชกรุงรัตนโกสินทร์"
+            class="grow"
+          />
+          <img
+            class="img_box grow"
+            src="img/วัฒนธรรมตาก/สะพานสมโภชกรุงรัตนโกสินทร์/3.jpg"
+            alt="สะพานสมโภชกรุงรัตนโกสินทร์"
+            class="grow"
+          />
+          <img
+            class="img_box grow"
+            src="img/วัฒนธรรมตาก/สะพานสมโภชกรุงรัตนโกสินทร์/4.jpg"
+            alt="สะพานสมโภชกรุงรัตนโกสินทร์"
+            class="grow"
+          />
+        </div>
+        <div class="box2">
+          <ui>
+            <li>ที่ตั้ง: ถนนเทศบาล 2 ตำบลปากแพรก อำเภอเมืองตาก จังหวัดตาก</li>
+            <li>เวลาเปิด–ปิด: เปิดตลอดเวลา</li>
+            <li>แผนที่: Google Maps - สะพานสมโภชกรุงรัตนโกสินทร์ 200 ปี</li></ui
+          >
+        </div>
+      </div>
     </section>
 
     <footer>
-        <p>&copy;Phatsaphorn051-7 & Piyada052-5 Cs sec1</p>
+      <p>&copy;Phatsaphorn051-7 & Piyada052-5 Cs sec1</p>
     </footer>
 
     <script>
-        function toggleMenu(){
+      function toggleMenu() {
         document.querySelector(".menu").classList.toggle("show");
-    }
+      }
     </script>
-    
-</body>
+  </body>
 </html>

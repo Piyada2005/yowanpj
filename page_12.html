@@ -1,105 +1,333 @@
 <!DOCTYPE html>
 <html lang="th">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/menu.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/menu.css" />
+    <link rel="stylesheet" href="./CSS/1_6.css" />
 
-    <title></title>
-    
-</head>
-<body>
+    <title>สถานที่ท่องเที่ยวทางธรรมชาติจังหวัดประจวบฯ</title>
+  </head>
+  <body>
     <header>
-        <div class="logo">
-            <a href="./index.html"><img src="./img/ชวนเที่ยวทีตก.svg" alt="ชวนเที่ยว" title="logo ชวนเที่ยว"></a>
-        </div>
-        
-        <div class="hamburgermenu" onclick="toggleMenu()"><h1>☰</h1></div>
+      <div class="logo">
+        <a href="./index.html"
+          ><img
+            src="./img/ชวนเที่ยวทีตก.svg"
+            alt="ชวนเที่ยว"
+            title="logo ชวนเที่ยว"
+        /></a>
+      </div>
 
-        <div class="menu" id="menu">
-            <ul>
-                <li><a href="./index.html">หน้าแรก</a></li>
-                <li class="main">ที่เที่ยว
-                    <ul class="small">
-                        <li class="main2">กาญจนบุรี
-                            <ul class="small2">
-                                <li><a href="./page_1.html">ธรรมชาติ</a></li>
-                                <li><a href="./page_2.html">วัฒนธรรม</a></li>
-                            </ul>
-                        </li>
+      <div class="hamburgermenu" onclick="toggleMenu()"><h1>☰</h1></div>
 
-                        <li class="main2">ราชบุรี
-                            <ul class="small2">
-                                <li><a href="./page_3.html">ธรรมชาติ</a></li>
-                                <li><a href="./page_4.html">วัฒนธรรม</a></li>
-                            </ul>
-                        </li>
-                        <li class="main2">เพชรบุรี
-                            <ul class="small2">
-                                <li><a href="./page_5.html">ธรรมชาติ</a></li>
-                                <li><a href="./page_6.html">วัฒนธรรม</a></li>
-                            </ul>
-                        </li>
-                        <li class="main2">ประจวบฯ
-                            <ul class="small2">
-                                <li><a href="./page_12.html">ธรรมชาติ</a></li>
-                                <li><a href="./page_13.html">วัฒนธรรม</a></li>
-                            </ul>
-                        </li>
-                        <li class="main2">ตาก
-                            <ul class="small2">
-                                <li><a href="./page_14.html">ธรรมชาติ</a></li>
-                                <li><a href="./page_15.html">วัฒนธรรม</a></li>
-                            </ul>
-                        </li>
-                     
-                    </ul>
-                </li>
-                <li class="main">ร้านอาหาร
-                    <ul class="small">
-                        <li><a href="./page_16.html">กาญจนบุรี</a></li>
-                        <li><a href="./page_17.html">ราชบุรี</a></li>
-                        <li><a href="./page_18.html">เพชรบุรี</a></li>
-                        <li><a href="./page_19.html">ประจวบฯ</a></li>
-                        <li><a href="./page_20.html">ตาก</a></li>
-                    </ul>
-                </li>
-                <li class="main">ที่พัก
-                    <ul class="small">
-                        <li><a href="./page_7.html">กาญจนบุรี</a></li>
-                        <li><a href="./page_8.html">ราชบุรี</a></li>
-                        <li><a href="./page_9.html">เพชรบุรี</a></li>
-                        <li><a href="./page_10.html">ประจวบฯ</a></li>
-                        <li><a href="./page_11.html">ตาก</a></li>
-                    </ul>
-                </li>
-                <li class="main">เกี่ยวกับ
-                    <ul class="small">
-                        <li><a href="./page_21.html">เกี่ยวกับเรา</a></li>
-                        <li><a href="./page_22.html">ติดต่อเรา</a></li>
-                    </ul>
-                </li>
+      <div class="menu" id="menu">
+        <ul>
+          <li><a href="./index.html">หน้าแรก</a></li>
+          <li class="main">
+            ที่เที่ยว
+            <ul class="small">
+              <li class="main2">
+                กาญจนบุรี
+                <ul class="small2">
+                  <li><a href="./page_1.html">ธรรมชาติ</a></li>
+                  <li><a href="./page_2.html">วัฒนธรรม</a></li>
+                </ul>
+              </li>
+
+              <li class="main2">
+                ราชบุรี
+                <ul class="small2">
+                  <li><a href="./page_3.html">ธรรมชาติ</a></li>
+                  <li><a href="./page_4.html">วัฒนธรรม</a></li>
+                </ul>
+              </li>
+              <li class="main2">
+                เพชรบุรี
+                <ul class="small2">
+                  <li><a href="./page_5.html">ธรรมชาติ</a></li>
+                  <li><a href="./page_6.html">วัฒนธรรม</a></li>
+                </ul>
+              </li>
+              <li class="main2">
+                ประจวบฯ
+                <ul class="small2">
+                  <li><a href="./page_12.html">ธรรมชาติ</a></li>
+                  <li><a href="./page_13.html">วัฒนธรรม</a></li>
+                </ul>
+              </li>
+              <li class="main2">
+                ตาก
+                <ul class="small2">
+                  <li><a href="./page_14.html">ธรรมชาติ</a></li>
+                  <li><a href="./page_15.html">วัฒนธรรม</a></li>
+                </ul>
+              </li>
             </ul>
-        </div>
+          </li>
+          <li class="main">
+            ร้านอาหาร
+            <ul class="small">
+              <li><a href="./page_16.html">กาญจนบุรี</a></li>
+              <li><a href="./page_17.html">ราชบุรี</a></li>
+              <li><a href="./page_18.html">เพชรบุรี</a></li>
+              <li><a href="./page_19.html">ประจวบฯ</a></li>
+              <li><a href="./page_20.html">ตาก</a></li>
+            </ul>
+          </li>
+          <li class="main">
+            ที่พัก
+            <ul class="small">
+              <li><a href="./page_7.html">กาญจนบุรี</a></li>
+              <li><a href="./page_8.html">ราชบุรี</a></li>
+              <li><a href="./page_9.html">เพชรบุรี</a></li>
+              <li><a href="./page_10.html">ประจวบฯ</a></li>
+              <li><a href="./page_11.html">ตาก</a></li>
+            </ul>
+          </li>
+          <li class="main">
+            เกี่ยวกับ
+            <ul class="small">
+              <li><a href="./page_21.html">เกี่ยวกับเรา</a></li>
+              <li><a href="./page_22.html">ติดต่อเรา</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </header>
-    
+
     <section>
-        
+      <h2 class="h1">
+        สถานที่ท่องเที่ยวธรรมชาติ<br />
+        จังหวัดประจวบคีรีขันธ์
+      </h2>
+      <div class="box1">
+        <h3>1.อุทยานแห่งชาติเขาสามร้อยยอด (Khao Sam Roi Yot National Park)</h3>
+        <img
+          class="img8_1 image"
+          src="./img/ธรรมชาติประจวบฯ/เขาสามร้อยยอด/1.jpg"
+          alt="อุทยานแห่งชาติเขาสามร้อยยอด"
+        />
+        <div class="align_center">
+          <img
+            class="grow img_box"
+            src="/img/ธรรมชาติประจวบฯ/เขาสามร้อยยอด/3.jpg"
+            alt="อุทยานแห่งชาติเขาสามร้อยยอด"
+          />
+          <img
+            class="grow img_box"
+            src="/img/ธรรมชาติประจวบฯ/เขาสามร้อยยอด/2.jpg"
+            alt="อุทยานแห่งชาติเขาสามร้อยยอด"
+          />
+          <img
+            class="grow img_box"
+            src="/img/ธรรมชาติประจวบฯ/เขาสามร้อยยอด/5.jpg"
+            alt="อุทยานแห่งชาติเขาสามร้อยยอด"
+          />
+        </div>
+        <div class="p2 mt">
+          <p class="indent">
+            อุทยานแห่งชาติเขาสามร้อยยอด (Khao Sam Roi Yot National Park)
+            อุทยานแห่งชาติเขาสามร้อยยอด
+            เป็นอุทยานแห่งชาติทางทะเลแห่งแรกของประเทศไทย ครอบคลุมพื้นที่กว่า 98
+            ตารางกิโลเมตร เต็มไปด้วยภูเขาหินปูนสูงชันสลับซับซ้อนมากกว่า 300 ยอด
+            ซึ่งเป็นที่มาของชื่อ “สามร้อยยอด”
+            ภายในอุทยานมีแหล่งท่องเที่ยวสำคัญหลายแห่ง เช่น ถ้ำพระยานคร
+            ที่ประดิษฐานพระที่นั่งคูหาคฤหาสน์ ซึ่งสวยงามเป็นเอกลักษณ์
+            เมื่อแสงแดดยามเช้าส่องลอดปากถ้ำลงมาจะเกิดภาพที่งดงามและศักดิ์สิทธิ์
+          </p>
+          <p class="indent mt2">
+            นอกจากนี้ยังมี บึงบัวสามร้อยยอด
+            แหล่งชมนกน้ำและบัวหลวงบานสะพรั่งในฤดูฝน
+            เป็นจุดถ่ายภาพยอดนิยมที่นักท่องเที่ยวไม่ควรพลาด
+            บรรยากาศรอบอุทยานยังมีเส้นทางศึกษาธรรมชาติ
+            และหมู่บ้านชาวประมงที่ยังคงวิถีชีวิตเรียบง่าย
+            เหมาะกับการพักผ่อนและสัมผัสธรรมชาติอย่างแท้จริง
+          </p>
+        </div>
 
+        <div class="box2">
+          <ul>
+            <li>
+              ที่อยู่ : ตำบลสามร้อยยอด อำเภอสามร้อยยอด จังหวัดประจวบคีรีขันธ์
+            </li>
+            <li>พิกัด : Google Maps - อุทยานแห่งชาติเขาสามร้อยยอด</li>
+            <li>เปิดให้เข้าชม : 06.00 – 18.00 น.</li>
+            <li>โทร : -</li>
+          </ul>
+        </div>
+      </div>
 
+      <div class="box1">
+        <h3>2.น้ำตกป่าละอู (Pala-U Waterfall)</h3>
+        <img
+          class="img8_1 image"
+          src="./img/ธรรมชาติประจวบฯ/น้ำตกปาละอู/4.jpg"
+          alt="น้ำตกป่าละอู"
+        />
+        <div class="align_center">
+          <img
+            class="grow img_box"
+            src="/img/ธรรมชาติประจวบฯ/น้ำตกปาละอู/3.jpg"
+            alt="น้ำตกป่าละอู"
+          />
+          <img
+            class="grow img_box"
+            src="/img/ธรรมชาติประจวบฯ/น้ำตกปาละอู/6.jpg"
+            alt="น้ำตกป่าละอู"
+          />
+          <img
+            class="grow img_box"
+            src="/img/ธรรมชาติประจวบฯ/น้ำตกปาละอู/7.jpg"
+            alt="น้ำตกป่าละอู"
+          />
+        </div>
+        <div class="p2 mt">
+          <p class="indent">
+            น้ำตกป่าละอู (Pala-U Waterfall) น้ำตกป่าละอู
+            ตั้งอยู่ท่ามกลางผืนป่าตะนาวศรีที่อุดมสมบูรณ์และมีความชุ่มชื้นตลอดปี
+            เป็นหนึ่งในน้ำตกที่มีความสวยงามและมีชื่อเสียงที่สุดในภาคตะวันตก
+            น้ำตกแห่งนี้มีทั้งหมด 15 ชั้น แต่ละชั้นมีความงดงามแตกต่างกัน
+            นักท่องเที่ยวสามารถเดินศึกษาธรรมชาติ ชมพันธุ์ไม้ป่าหายาก
+            และพบกับฝูงผีเสื้อหลากสีในช่วงฤดูร้อนถึงต้นฝน
+            เสียงน้ำตกที่ไหลลดหลั่นท่ามกลางป่าเขา
+            ทำให้ที่นี่เป็นสถานที่ที่เหมาะสำหรับการพักผ่อนคลายความเหนื่อยล้า
+            หรือจะนั่งแช่เท้าริมธารน้ำเย็นใสก็ให้ความรู้สึกสงบอย่างมาก
+            น้ำตกป่าละอูยังเป็นแหล่งอนุรักษ์สัตว์ป่าที่สำคัญ เช่น ลิง ชะนี
+            และนกชนิดต่าง ๆ อีกด้วย
+          </p>
+        </div>
 
-        
+        <div class="box2">
+          <ul>
+            <li>
+              ที่อยู่ : หมู่บ้านห้วยป่าละอู ตำบลห้วยสัตว์ใหญ่ อำเภอหัวหิน
+              จังหวัดประจวบคีรีขันธ์
+            </li>
+            <li>พิกัด : Google Maps - น้ำตกป่าละอู</li>
+            <li>เปิดให้เข้าชม : 08.00 – 16.30 น.</li>
+            <li>โทร : -</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box1">
+        <h3>3.เขาล้อมหมวก (Khao Lom Muak)</h3>
+        <img
+          class="img8_1 image"
+          src="./img/ธรรมชาติประจวบฯ/เขาล้อมหมวก/5.jpg"
+          alt="เขาล้อมหมวก"
+        />
+        <div class="align_center">
+          <img
+            class="grow img_box"
+            src="/img/ธรรมชาติประจวบฯ/เขาล้อมหมวก/1.jpg"
+            alt="เขาล้อมหมวก"
+          />
+          <img
+            class="grow img_box"
+            src="/img/ธรรมชาติประจวบฯ/เขาล้อมหมวก/2.jpg"
+            alt="เขาล้อมหมวก"
+          />
+          <img
+            class="grow img_box"
+            src="/img/ธรรมชาติประจวบฯ/เขาล้อมหมวก/3.jpg"
+            alt="เขาล้อมหมวก"
+          />
+        </div>
+        <div class="p2 mt">
+          <p class="indent">
+            เขาล้อมหมวก (Khao Lom Muak)
+            เขาล้อมหมวกเป็นหนึ่งในจุดชมวิวที่งดงามที่สุดของจังหวัดประจวบคีรีขันธ์
+            ตั้งอยู่ภายในเขตกองบิน 5
+            ซึ่งมักเปิดให้ประชาชนเข้าปีนเฉพาะในวันหยุดนักขัตฤกษ์
+            การขึ้นเขาล้อมหมวกต้องใช้ความพยายามและแรงกาย
+            เนื่องจากเป็นทางชันและมีเชือกช่วยปีนในบางช่วง แต่เมื่อถึงยอดเขา
+            คุณจะได้สัมผัสวิวทะเลสองฝั่งสุดตระการตา เห็นทั้งอ่าวประจวบฯ
+            อ่าวมะนาว และอ่าวน้อยได้ในมุมสูงแบบพาโนรามา
+            ในช่วงเช้าตรู่จะเห็นพระอาทิตย์ค่อย ๆ ลอยขึ้นจากขอบฟ้าเหนือทะเล
+            พร้อมสายลมเย็นและเสียงคลื่นเบา ๆ
+            เป็นช่วงเวลาที่นักท่องเที่ยวหลายคนจดจำไม่ลืม
+            นอกจากจะเป็นจุดชมวิวแล้ว ที่ฐานเขายังมีลิงแสมอาศัยอยู่จำนวนมาก
+            สร้างสีสันให้กับผู้มาเยือนอีกด้วย
+          </p>
+        </div>
+
+        <div class="box2">
+          <ul>
+            <li>
+              ที่อยู่ : ภายในกองบิน 5 ตำบลกองบิน อำเภอเมือง
+              จังหวัดประจวบคีรีขันธ์
+            </li>
+            <li>พิกัด : Google Maps - เขาล้อมหมวก</li>
+            <li>
+              เปิดให้เข้าชม : เปิดให้ปีนเฉพาะวันหยุดนักขัตฤกษ์
+              หรือช่วงกิจกรรมพิเศษ (ตรวจสอบวันได้จากเพจของกองบิน 5)
+            </li>
+            <li>โทร : -</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box1">
+        <h3>4.หาดหัวหิน (Hua Hin Beach)</h3>
+        <img
+          class="img8_1 image"
+          src="./img/ธรรมชาติประจวบฯ/หาดหัวหิน/3.jpg"
+          alt="หาดหัวหิน"
+        />
+        <div class="align_center img_main">
+          <img
+            class="grow img_box"
+            src="/img/ธรรมชาติประจวบฯ/หาดหัวหิน/4.jpg"
+            alt="หาดหัวหิน"
+          />
+          <img
+            class="grow img_box"
+            src="/img/ธรรมชาติประจวบฯ/หาดหัวหิน/1.jpg"
+            alt="หาดหัวหิน"
+          />
+          <img
+            class="grow img_box"
+            src="/img/ธรรมชาติประจวบฯ/หาดหัวหิน/2.jpg"
+            alt="หาดหัวหิน"
+          />
+        </div>
+        <div class="p2 mt">
+          <p class="indent">
+            หาดหัวหินเป็นชายหาดที่มีชื่อเสียงที่สุดของจังหวัดประจวบคีรีขันธ์
+            และเป็นสถานที่พักผ่อนยอดนิยมของนักท่องเที่ยวทั้งชาวไทยและต่างชาติ
+            ด้วยชายหาดที่ยาวกว่า 5 กิโลเมตร น้ำทะเลใสสะอาด เหมาะแก่การเดินเล่น
+            ขี่ม้าริมหาด เล่นน้ำ หรือชมพระอาทิตย์ขึ้นในยามเช้า
+            บรรยากาศของหัวหินผสมผสานความคลาสสิกและความทันสมัยเข้าด้วยกัน
+            คุณจะพบโรงแรมระดับหรูสไตล์โคโลเนียลสลับกับคาเฟ่ริมทะเลสุดชิล
+            ร้านอาหารทะเลสดใหม่ และตลาดโต้รุ่งหัวหินที่มีชีวิตชีวาในยามค่ำคืน
+            หัวหินยังเป็นศูนย์กลางของการท่องเที่ยวในจังหวัดและเป็นจุดเริ่มต้นที่ดีในการเดินทางต่อไปยังสถานที่ท่องเที่ยวอื่น
+            ๆ ในภาคตะวันตกอีกด้วย
+          </p>
+        </div>
+
+        <div class="box2">
+          <ul>
+            <li>
+              ที่อยู่ : อำเภอหัวหิน จังหวัดประจวบคีรีขันธ์
+            </li>
+            <li>พิกัด : Google Maps - หาดหัวหิน</li>
+            <li>เปิดให้เข้าชม : เปิดตลอดเวลา</li>
+            <li>โทร : -</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <footer>
-        <p>&copy;Phatsaphorn051-7 & Piyada052-5 Cs sec1</p>
+      <p>&copy;Phatsaphorn051-7 & Piyada052-5 Cs sec1</p>
     </footer>
 
     <script>
-        function toggleMenu(){
+      function toggleMenu() {
         document.querySelector(".menu").classList.toggle("show");
-    }
+      }
     </script>
-    
-</body>
+  </body>
 </html>

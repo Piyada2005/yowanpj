@@ -1,105 +1,299 @@
 <!DOCTYPE html>
 <html lang="th">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/menu.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/menu.css" />
+    <link rel="stylesheet" href="./CSS/1_6.css" />
 
     <title></title>
-    
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="logo">
-            <a href="./index.html"><img src="./img/ชวนเที่ยวทีตก.svg" alt="ชวนเที่ยว" title="logo ชวนเที่ยว"></a>
-        </div>
-        
-        <div class="hamburgermenu" onclick="toggleMenu()"><h1>☰</h1></div>
+      <div class="logo">
+        <a href="./index.html"
+          ><img
+            src="./img/ชวนเที่ยวทีตก.svg"
+            alt="ชวนเที่ยว"
+            title="logo ชวนเที่ยว"
+        /></a>
+      </div>
 
-        <div class="menu" id="menu">
-            <ul>
-                <li><a href="./index.html">หน้าแรก</a></li>
-                <li class="main">ที่เที่ยว
-                    <ul class="small">
-                        <li class="main2">กาญจนบุรี
-                            <ul class="small2">
-                                <li><a href="./page_1.html">ธรรมชาติ</a></li>
-                                <li><a href="./page_2.html">วัฒนธรรม</a></li>
-                            </ul>
-                        </li>
+      <div class="hamburgermenu" onclick="toggleMenu()"><h1>☰</h1></div>
 
-                        <li class="main2">ราชบุรี
-                            <ul class="small2">
-                                <li><a href="./page_3.html">ธรรมชาติ</a></li>
-                                <li><a href="./page_4.html">วัฒนธรรม</a></li>
-                            </ul>
-                        </li>
-                        <li class="main2">เพชรบุรี
-                            <ul class="small2">
-                                <li><a href="./page_5.html">ธรรมชาติ</a></li>
-                                <li><a href="./page_6.html">วัฒนธรรม</a></li>
-                            </ul>
-                        </li>
-                        <li class="main2">ประจวบฯ
-                            <ul class="small2">
-                                <li><a href="./page_12.html">ธรรมชาติ</a></li>
-                                <li><a href="./page_13.html">วัฒนธรรม</a></li>
-                            </ul>
-                        </li>
-                        <li class="main2">ตาก
-                            <ul class="small2">
-                                <li><a href="./page_14.html">ธรรมชาติ</a></li>
-                                <li><a href="./page_15.html">วัฒนธรรม</a></li>
-                            </ul>
-                        </li>
-                     
-                    </ul>
-                </li>
-                <li class="main">ร้านอาหาร
-                    <ul class="small">
-                        <li><a href="./page_16.html">กาญจนบุรี</a></li>
-                        <li><a href="./page_17.html">ราชบุรี</a></li>
-                        <li><a href="./page_18.html">เพชรบุรี</a></li>
-                        <li><a href="./page_19.html">ประจวบฯ</a></li>
-                        <li><a href="./page_20.html">ตาก</a></li>
-                    </ul>
-                </li>
-                <li class="main">ที่พัก
-                    <ul class="small">
-                        <li><a href="./page_7.html">กาญจนบุรี</a></li>
-                        <li><a href="./page_8.html">ราชบุรี</a></li>
-                        <li><a href="./page_9.html">เพชรบุรี</a></li>
-                        <li><a href="./page_10.html">ประจวบฯ</a></li>
-                        <li><a href="./page_11.html">ตาก</a></li>
-                    </ul>
-                </li>
-                <li class="main">เกี่ยวกับ
-                    <ul class="small">
-                        <li><a href="./page_21.html">เกี่ยวกับเรา</a></li>
-                        <li><a href="./page_22.html">ติดต่อเรา</a></li>
-                    </ul>
-                </li>
+      <div class="menu" id="menu">
+        <ul>
+          <li><a href="./index.html">หน้าแรก</a></li>
+          <li class="main">
+            ที่เที่ยว
+            <ul class="small">
+              <li class="main2">
+                กาญจนบุรี
+                <ul class="small2">
+                  <li><a href="./page_1.html">ธรรมชาติ</a></li>
+                  <li><a href="./page_2.html">วัฒนธรรม</a></li>
+                </ul>
+              </li>
+
+              <li class="main2">
+                ราชบุรี
+                <ul class="small2">
+                  <li><a href="./page_3.html">ธรรมชาติ</a></li>
+                  <li><a href="./page_4.html">วัฒนธรรม</a></li>
+                </ul>
+              </li>
+              <li class="main2">
+                เพชรบุรี
+                <ul class="small2">
+                  <li><a href="./page_5.html">ธรรมชาติ</a></li>
+                  <li><a href="./page_6.html">วัฒนธรรม</a></li>
+                </ul>
+              </li>
+              <li class="main2">
+                ประจวบฯ
+                <ul class="small2">
+                  <li><a href="./page_12.html">ธรรมชาติ</a></li>
+                  <li><a href="./page_13.html">วัฒนธรรม</a></li>
+                </ul>
+              </li>
+              <li class="main2">
+                ตาก
+                <ul class="small2">
+                  <li><a href="./page_14.html">ธรรมชาติ</a></li>
+                  <li><a href="./page_15.html">วัฒนธรรม</a></li>
+                </ul>
+              </li>
             </ul>
-        </div>
+          </li>
+          <li class="main">
+            ร้านอาหาร
+            <ul class="small">
+              <li><a href="./page_16.html">กาญจนบุรี</a></li>
+              <li><a href="./page_17.html">ราชบุรี</a></li>
+              <li><a href="./page_18.html">เพชรบุรี</a></li>
+              <li><a href="./page_19.html">ประจวบฯ</a></li>
+              <li><a href="./page_20.html">ตาก</a></li>
+            </ul>
+          </li>
+          <li class="main">
+            ที่พัก
+            <ul class="small">
+              <li><a href="./page_7.html">กาญจนบุรี</a></li>
+              <li><a href="./page_8.html">ราชบุรี</a></li>
+              <li><a href="./page_9.html">เพชรบุรี</a></li>
+              <li><a href="./page_10.html">ประจวบฯ</a></li>
+              <li><a href="./page_11.html">ตาก</a></li>
+            </ul>
+          </li>
+          <li class="main">
+            เกี่ยวกับ
+            <ul class="small">
+              <li><a href="./page_21.html">เกี่ยวกับเรา</a></li>
+              <li><a href="./page_22.html">ติดต่อเรา</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </header>
-    
-    <section>
-        
 
+    <section class="h-full">
+      <h2 class="h1">
+        สถานที่ท่องเที่ยววัฒนธรรม&โบราณสถาน<br />
+        จังหวัดประจวบคีรีขันธ์
+      </h2>
+      <div class="box1">
+        <h3>1.พระราชวังไกลกังวล (Klai Kangwon Palace)</h3>
+        <div>
+          <p class="indent">
+            พระราชวังไกลกังวล ตั้งอยู่ริมชายหาดหัวหิน
+            เป็นพระราชวังฤดูร้อนที่พระบาทสมเด็จพระปกเกล้าเจ้าอยู่หัว (รัชกาลที่
+            7) โปรดเกล้าฯ ให้สร้างขึ้นเมื่อปี พ.ศ. 2470
+            เพื่อใช้เป็นที่ประทับพักผ่อนในฤดูร้อน ชื่อ “ไกลกังวล” มีความหมายว่า
+            “ปลอดจากความทุกข์กังวล”
+            พระราชวังแห่งนี้มีสถาปัตยกรรมแบบสเปนผสมโคโลเนียล
+            ตัวอาคารเป็นไม้สองชั้นสีเหลืองอ่อนหลังคาสีแดง
+            สวยงามเรียบง่ายและสงบเงียบ
+            รายล้อมด้วยสวนดอกไม้และสนามหญ้าร่มรื่นติดทะเล
+            ปัจจุบันเปิดให้ประชาชนทั่วไปเข้าชมบางส่วนในบริเวณหน้าพระราชวัง
+            โดยต้องแต่งกายสุภาพ
+          </p>
+        </div>
+        <div class="box2">
+          <ui>
+            <li>ที่ตั้ง: ถนนเพชรเกษม อำเภอหัวหิน จังหวัดประจวบคีรีขันธ์</li>
+            <li>เวลาเปิด–ปิด: 09.00 – 16.00 น. (หยุดวันจันทร์)</li>
+            <li>แผนที่: Google Maps - พระราชวังไกลกังวล</li>
+          </ui>
+        </div>
+        <div class="align_center img_main">
+          <img
+            class="img_box grow"
+            src="img/วัฒธรรมประจวบฯ/พระราชวังไกลกังวล/1.jpg"
+            alt="พระราชวังไกลกังวล"
+            class="grow"
+          />
+          <img
+            class="img_box grow"
+            src="img/วัฒธรรมประจวบฯ/พระราชวังไกลกังวล/2.jpg"
+            alt="พระราชวังไกลกังวล"
+            class="grow"
+          />
+          <img
+            class="img_box grow"
+            src="img/วัฒธรรมประจวบฯ/พระราชวังไกลกังวล/3.jpg"
+            alt="พระราชวังไกลกังวล"
+            class="grow"
+          />
+        </div>
+      </div>
 
+      <div class="box1">
+        <h3>2.วัดเขาช่องกระจก (Wat Khao Chong Krajok)</h3>
+        <div>
+          <p class="indent">
+            วัดเขาช่องกระจกเป็นวัดที่ตั้งอยู่บนยอดเขาสูงประมาณ 245 เมตร
+            ซึ่งเป็นจุดชมวิวที่สวยที่สุดแห่งหนึ่งของอ่าวประจวบฯ
+            ด้านบนมีพระธาตุเจดีย์สีทองอร่าม มองเห็นได้แต่ไกล
+            และยังเป็นที่ประดิษฐานรอยพระพุทธบาทจำลอง
+          </p>
+          <p class="indent mt">
+            นักท่องเที่ยวสามารถเดินขึ้นบันไดกว่า 396
+            ขั้นเพื่อชมทิวทัศน์เมืองประจวบฯ แบบพาโนรามา รวมทั้งวิวอ่าวน้อย
+            อ่าวประจวบ และอ่าวมะนาวในมุมสูง
+            นอกจากนี้ยังมีลิงแสมอาศัยอยู่รอบบริเวณ
+            ทำให้วัดนี้มีชีวิตชีวาและเป็นจุดท่องเที่ยวที่ทั้งสวยงามและมีเอกลักษณ์ทางวัฒนธรรม
+          </p>
+        </div>
+        <div class="box2">
+          <ui>
+            <li>
+              ที่ตั้ง: ถนนสละชีพ ตำบลประจวบคีรีขันธ์ อำเภอเมือง
+              จังหวัดประจวบคีรีขันธ์
+            </li>
+            <li>เวลาเปิด–ปิด: 06.00 – 18.00 น.</li>
+            <li>แผนที่: Google Maps - วัดเขาช่องกระจก</li>
+          </ui>
+        </div>
+        <div class="align_center img_main">
+          <img
+            class="img_box grow"
+            src="img/วัฒธรรมประจวบฯ/วัดเขาช่องกระจก/1.jpg"
+            alt="วัดเขาช่องกระจก"
+            class="grow"
+          />
+          <img
+            class="img_box grow"
+            src="img/วัฒธรรมประจวบฯ/วัดเขาช่องกระจก/4.jpg"
+            alt="วัดเขาช่องกระจก"
+            class="grow"
+          />
+          <img
+            class="img_box grow"
+            src="img/วัฒธรรมประจวบฯ/วัดเขาช่องกระจก/3.jpg"
+            alt="วัดเขาช่องกระจก"
+            class="grow"
+          />
+        </div>
+      </div>
 
-        
+      <div class="box1">
+        <h3>3.วัดห้วยมงคล (Wat Huay Mongkol)</h3>
+        <div>
+          <p class="indent">
+            วัดห้วยมงคลเป็นวัดสำคัญที่ประดิษฐานรูปเหมือนหลวงพ่อทวดองค์ใหญ่ที่สุดในโลก
+            สร้างขึ้นเพื่อเฉลิมพระเกียรติสมเด็จพระนางเจ้าสิริกิติ์
+            พระบรมราชินีนาถ เนื่องในวโรกาสครบรอบ 72 พรรษา
+            องค์หลวงพ่อทวดตั้งอยู่บนฐานสูง มองเห็นได้ชัดเจนจากระยะไกล
+          </p>
+          <p class="indent mt">
+            ภายในวัดมีบรรยากาศร่มรื่น มีศาลาหลวงพ่อทวดจำลองให้ประชาชนได้สักการะ
+            บริเวณรอบ ๆ ยังมีรูปปั้นช้างมงคลคู่ขนาดใหญ่
+            ซึ่งเชื่อว่าหากเดินลอดใต้ท้องช้างครบสามรอบจะเป็นสิริมงคลแก่ชีวิต
+            เหมาะสำหรับนักท่องเที่ยวสายบุญที่ต้องการขอพรเรื่องโชคลาภและความเจริญรุ่งเรือง
+          </p>
+        </div>
+        <div class="box2">
+          <ui>
+            <li>ที่ตั้ง: ตำบลทับใต้ อำเภอหัวหิน จังหวัดประจวบคีรีขันธ์</li>
+            <li>เวลาเปิด–ปิด: 06.00 – 18.00 น.</li>
+            <li>แผนที่: Google Maps - วัดห้วยมงคล</li>
+          </ui>
+        </div>
+        <div class="align_center img_main">
+          <img
+            class="img_box grow"
+            src="img/วัฒธรรมประจวบฯ/วัดห้วยมงคล/1.jpg"
+            alt="วัดห้วยมงคล"
+            class="grow"
+          />
+          <img
+            class="img_box grow"
+            src="img/วัฒธรรมประจวบฯ/วัดห้วยมงคล/2.jpg"
+            alt="วัดห้วยมงคล"
+            class="grow"
+          />
+          <img
+            class="img_box grow"
+            src="img/วัฒธรรมประจวบฯ/วัดห้วยมงคล/3.jpg"
+            alt="วัดห้วยมงคล"
+            class="grow"
+          />
+        </div>
+      </div>
+
+      <div class="box1">
+        <h3>4.วัดอ่าวน้อย (ถ้ำพระนอน) (Wat Ao Noi)</h3>
+        <div>
+          <p class="indent">
+            วัดอ่าวน้อยเป็นวัดเก่าแก่ที่ตั้งอยู่ริมทะเลใกล้ตัวเมืองประจวบฯ
+            มีความโดดเด่นตรง “ถ้ำพระนอน”
+            ที่ประดิษฐานพระพุทธไสยาสน์ขนาดใหญ่แกะสลักจากไม้ตะเคียนทั้งต้น
+            ภายในถ้ำยังมีหินงอกหินย้อยสวยงามและบรรยากาศสงบเย็น
+          </p>
+          <p class="indent mt">
+            วัดอ่าวน้อยยังเป็นสถานที่ชมวิวทะเลที่เงียบสงบ
+            นักท่องเที่ยวสามารถเดินขึ้นไปยังจุดชมวิวด้านบนเพื่อมองเห็นอ่าวน้อยได้แบบเต็มตา
+            เหมาะสำหรับทั้งการสักการะบูชาและการพักผ่อนสัมผัสธรรมชาติในเวลาเดียวกัน
+          </p>
+        </div>
+        <div class="box2">
+          <ui>
+            <li>ที่ตั้ง: ตำบลอ่าวน้อย อำเภอเมือง จังหวัดประจวบคีรีขันธ์</li>
+            <li>เวลาเปิด–ปิด: 06.00 – 18.00 น.</li>
+            <li>แผนที่: Google Maps - วัดอ่าวน้อย (ถ้ำพระนอน)</li>
+          </ui>
+        </div>
+        <div class="align_center img_main">
+          <img
+            class="img_box grow"
+            src="img/วัฒธรรมประจวบฯ/วัดอ่าวน้อย/3.jpg"
+            alt="วัดอ่าวน้อย"
+            class="grow"
+          />
+          <img
+            class="img_box grow"
+            src="img/วัฒธรรมประจวบฯ/วัดอ่าวน้อย/2.jpg"
+            alt="วัดอ่าวน้อย"
+            class="grow"
+          />
+          <img
+            class="img_box grow"
+            src="img/วัฒธรรมประจวบฯ/วัดอ่าวน้อย/6.jpg"
+            alt="วัดอ่าวน้อย"
+            class="grow"
+          />
+        </div>
+      </div>
     </section>
 
     <footer>
-        <p>&copy;Phatsaphorn051-7 & Piyada052-5 Cs sec1</p>
+      <p>&copy;Phatsaphorn051-7 & Piyada052-5 Cs sec1</p>
     </footer>
 
     <script>
-        function toggleMenu(){
+      function toggleMenu() {
         document.querySelector(".menu").classList.toggle("show");
-    }
+      }
     </script>
-    
-</body>
+  </body>
 </html>
