@@ -22,7 +22,7 @@ header {
   color: white;
   margin: 0%;
   text-shadow: 1px 1px 2px #424242;
-  background-color: #259B24;
+  background-color: #6da2d4;
 }
 article{
   background-color: #7cb342;
@@ -47,7 +47,7 @@ article{
 }
 footer{
   clear: both;
-  background-color: #0D5302;
+  background-color: #5ec8b2;
   color: white;
   padding: 10px;
   text-align: center;
@@ -66,7 +66,7 @@ footer{
   cursor: pointer;
 }
 .menu{
-  background-color: #0D5302;
+  background-color: #5ec8b2;
   padding: 7px;
   border-radius: 20px;
   margin-right: 30px;
@@ -78,7 +78,7 @@ footer{
   list-style-type: none;
 }
 .menu li{
-  background-color: #0D5302;
+  background-color: #5ec8b2;
   margin: 0 15px;
 }
 
@@ -124,7 +124,7 @@ li.main , li.main2{
     position: relative;
 }
 ul.small li:hover{
-    background-color: #7cb342;
+    background-color: #6da2d4;
 }
 a{
   font-weight: bold;
@@ -138,7 +138,7 @@ body{
 }
 .hamburgermenu {
   display: block;
-  background-color: #0D5302;
+  background-color: #5ec8b2;
   padding: 0 15px;
   border-radius: 20px;
   margin-right: 30px;
@@ -157,12 +157,12 @@ body{
   top: 45px;
   right: 15px;
   width: 115px;
-  background-color: #0D5302;
+  background-color: #5ec8b2;
   text-align: center;
   border-radius: 0;
 }
 .menu li:hover{
-    background-color: #7cb342;
+    background-color: #6da2d4;
 }
 .menu ul{
   flex-direction: column;
