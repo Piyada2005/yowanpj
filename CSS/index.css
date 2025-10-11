@@ -1,5 +1,5 @@
 body{
-    background-image: url(../img/4444.png);
+    background-image: url(../img/พื้นหลัง2.png);
     min-height: 100vh;
     background-size: 100% auto;
     box-sizing: border-box;
@@ -42,7 +42,7 @@ h2{
     margin: 1% 2.5%;
 }
 .a1{
-    color: #007FFF;
+    color: #5ec8b2;
 }
 
 @media screen and (max-width: 768px){
